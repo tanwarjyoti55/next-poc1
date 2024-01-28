@@ -1,0 +1,16 @@
+.image{
+    object-fit: cover;
+    /* margin: 0.25rem; */
+    border-radius: 4px;
+    transition: 0.5s ease;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image:hover{
+    transform: scale(1.05);
+}
